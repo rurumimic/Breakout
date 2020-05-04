@@ -13,6 +13,8 @@
 		C965EC50246048BF00838484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C965EC4E246048BF00838484 /* Main.storyboard */; };
 		C965EC52246048C000838484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C965EC51246048C000838484 /* Assets.xcassets */; };
 		C965EC55246048C000838484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C965EC53246048C000838484 /* LaunchScreen.storyboard */; };
+		C965EC5D246056A100838484 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965EC5C246056A100838484 /* Renderer.swift */; };
+		C965EC61246057F300838484 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = C965EC60246057F300838484 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C965EC51246048C000838484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C965EC54246048C000838484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C965EC56246048C000838484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C965EC5C246056A100838484 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		C965EC60246057F300838484 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C965EC51246048C000838484 /* Assets.xcassets */,
 				C965EC53246048C000838484 /* LaunchScreen.storyboard */,
 				C965EC56246048C000838484 /* Info.plist */,
+				C965EC5C246056A100838484 /* Renderer.swift */,
+				C965EC60246057F300838484 /* Shader.metal */,
 			);
 			path = Breakout;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C965EC5D246056A100838484 /* Renderer.swift in Sources */,
 				C965EC4D246048BF00838484 /* ViewController.swift in Sources */,
 				C965EC49246048BF00838484 /* AppDelegate.swift in Sources */,
+				C965EC61246057F300838484 /* Shader.metal in Sources */,
 				C965EC4B246048BF00838484 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
